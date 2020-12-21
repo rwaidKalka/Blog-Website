@@ -829,7 +829,7 @@ td {
     flex-direction: column;
   }
 .nav .nav--item:first-child {
- margin:0 1rem;
+ margin:0 1rem !important;
 }
 
 }
