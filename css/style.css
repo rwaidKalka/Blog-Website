@@ -828,4 +828,8 @@ td {
     display: flex;
     flex-direction: column;
   }
+.nav .nav--item:first-child {
+  margin-left: 0;
+}
+
 }
