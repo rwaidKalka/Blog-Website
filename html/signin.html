@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="../img/web.png" />
+
+    <title>Assignment</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <img src="../img/web.png" alt="Logo" class="header--logo" />
+
+        <h1 class="heading-primary">Rwaid Loqa Hanna</h1>
+      </div>
+    </header>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="container">
+        <ul class="nav--main--nav">
+          <li class="nav--item">
+            <a class="nav--link" href="../index.html">Home</a>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link" href="schedule.html">Schedule</a>
+          </li>
+          <li class="nav--item hover--show">
+            <a class="nav--link" href="#"
+              >Layout Design <span class="dropdown--icon"> &#9660;</span></a
+            >
+            <ul class="hover--list">
+              <li><a href="floatLayout.html">Float Layout With Side Nav</a></li>
+              <li>
+                <a href="flexboxLayout.html">FlexBox Layout With Side Nav</a>
+              </li>
+              <li><a href="gridLayout.html">Blog Grid View</a></li>
+            </ul>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link" href="signup.html">Signup</a>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link active" href="signin.html">Signin</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main Content -->
+    <main class="main">
+      <div class="container">
+        <!-- Form -->
+        <section class="form-section">
+          <h2 class="heading-secondary">Signin Form</h2>
+          <form class="form form--half-center">
+            <div class="form--group">
+              <label for="username-or-email">Username or Email</label>
+              <input
+                class="form--control"
+                type="text"
+                id="username-or-email"
+                placeholder="Username or Email"
+              />
+            </div>
+            <div class="form--group">
+              <label for="passwordSignIn">Password</label>
+
+              <input
+                class="form--control"
+                type="password"
+                id="passwordSignIn"
+                placeholder="password"
+              />
+            </div>
+
+            <div class="btn--group">
+              <a href="#" class="btn--link">Forget password?</a>
+              <a href="#" class="btn btn--outline--primary">Signin</a>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer--item">
+          <h3 class="heading-tertiary u-margin-bottom-small">Site map</h3>
+          <ul class="footer--nav">
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Home</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">About</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Contact</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer--item">
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Terms and quick Links
+          </h3>
+          <ul class="footer--nav">
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Term Of Usage</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Link 1</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Link 2</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Link 3</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer--item">
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Address and Contact
+          </h3>
+          <address class="address">
+            City,Shaqlawa Erbil <br />
+            Phone Number:07503640136 <br />
+            Email:rwaidluqa@gmail.com
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

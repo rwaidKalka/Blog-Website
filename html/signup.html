@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="../img/web.png" />
+
+    <title>Assignment</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <img src="../img/web.png" alt="Logo" class="header--logo" />
+
+        <h1 class="heading-primary">Rwaid Loqa Hanna</h1>
+      </div>
+    </header>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="container">
+        <ul class="nav--main--nav">
+          <li class="nav--item">
+            <a class="nav--link" href="../index.html">Home</a>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link" href="schedule.html">Schedule</a>
+          </li>
+          <li class="nav--item hover--show">
+            <a class="nav--link" href="#"
+              >Layout Design <span class="dropdown--icon"> &#9660;</span></a
+            >
+            <ul class="hover--list">
+              <li><a href="floatLayout.html">Float Layout With Side Nav</a></li>
+              <li>
+                <a href="flexboxLayout.html">FlexBox Layout With Side Nav</a>
+              </li>
+              <li><a href="gridLayout.html">Blog Grid View</a></li>
+            </ul>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link active" href="signup.html">Signup</a>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link" href="signin.html">Signin</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main Content -->
+    <main class="main">
+      <div class="container">
+        <!-- Form -->
+        <section class="form-section">
+          <h2 class="heading-secondary u-margin-bottom-small">Signup Form</h2>
+          <form class="form">
+            <div class="form--group">
+              <label for="username">Username</label>
+
+              <input
+                class="form--control"
+                type="text"
+                id="username"
+                placeholder="Username"
+              />
+            </div>
+            <div class="form--group">
+              <label for="fullName">Full Name</label>
+
+              <input
+                class="form--control"
+                type="text"
+                id="fullName"
+                placeholder="Full Name"
+              />
+            </div>
+
+            <div class="form--group">
+              <label for="email">Email</label>
+
+              <input
+                type="email"
+                id="email"
+                placeholder="test@test.com"
+                class="form--control"
+                required
+              />
+            </div>
+            <div class="form--group">
+              <label for="tel">Telephone</label>
+
+              <input
+                class="form--control"
+                type="tel"
+                id="tel"
+                placeholder="+96400000000000"
+              />
+            </div>
+            <div class="form--group">
+              <label for="pass">Password</label>
+              <input
+                class="form--control"
+                type="password"
+                id="pass"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form--group">
+              <label for="DOB">Date Of Birth</label>
+              <input class="form--control" type="date" id="DOB" />
+            </div>
+            <div class="form--group">
+              <label for="color">Profile Color</label>
+              <input
+                class="form--control"
+                type="color"
+                id="color"
+                value="#b28451"
+              />
+            </div>
+            <div class="form--group">
+              <fieldset>
+                <legend>Martial Status</legend>
+                <div class="radio-group">
+                  <input type="radio" name="martial" id="single" />
+                  <label for="single">Single</label>
+                </div>
+                <div class="radio-group">
+                  <input type="radio" name="martial" id="married" />
+                  <label for="married">Married</label>
+                </div>
+                <div class="radio-group">
+                  <input type="radio" name="martial" id="private" />
+                  <label for="private">It is Private</label>
+                </div>
+              </fieldset>
+            </div>
+            <div class="form--group">
+              <label for="NOC">No Of Children</label>
+              <select id="NOC" class="form--control">
+                <option value="none" selected>none</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
+            </div>
+
+            <div class="form--group">
+              <label for="deg">Choose Your Degrees</label>
+              <select id="deg" multiple class="form--control">
+                <option value="Deploma">Deploma</option>
+                <option value="Bachelor of Science (BSc)">
+                  Bachelor of Science (BSc)
+                </option>
+                <option value="Bachelor of Arts (BA)">
+                  Bachelor of Arts (BA)
+                </option>
+                <option value="High Deploma">High Deploma</option>
+                <option value="Master Of Science">Master Of Science</option>
+                <option value="PHD">PHD</option>
+                <option value="Professor">Professor</option>
+                <option value="Teacher">Teacher</option>
+              </select>
+            </div>
+            <div class="form--group">
+              <label for="textarea">About Yourself</label>
+              <textarea
+                class="form--control"
+                id="textarea"
+                placeholder="About Yourself"
+              ></textarea>
+            </div>
+
+            <div class="form--group">
+              <label for="file">Upload Your CV</label>
+              <input class="form--control" type="file" id="file" />
+            </div>
+
+            <div class="form--group">
+              <fieldset>
+                <legend>Gender</legend>
+                <div class="radio-group">
+                  <input type="radio" name="gender" id="male" />
+                  <label for="male">Male</label>
+                </div>
+                <div class="radio-group">
+                  <input type="radio" name="gender" id="female" />
+                  <label for="female">Female</label>
+                </div>
+              </fieldset>
+            </div>
+
+            <div class="form--group">
+              <fieldset>
+                <legend>Aggrement</legend>
+                <h4 class="u-margin-bottom-small">
+                  Please Read the terms and aggremment
+                </h4>
+                <div class="checkbox-group">
+                  <input type="checkbox" id="yesRead" />
+                  <label for="yesRead">Yes I have read all the terms</label>
+                </div>
+                <div class="checkbox-group">
+                  <input type="checkbox" id="agree" />
+                  <label for="agree">Yes I'm agree</label>
+                </div>
+              </fieldset>
+            </div>
+            <div class="btn--group">
+              <a href="#" class="btn btn--outline--primary">Signup</a>
+              <a href="#" class="btn btn--outline--danger">Reset</a>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer--item">
+          <h3 class="heading-tertiary u-margin-bottom-small">Site map</h3>
+          <ul class="footer--nav">
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Home</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">About</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Contact</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer--item">
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Terms and quick Links
+          </h3>
+          <ul class="footer--nav">
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Term Of Usage</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Link 1</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Link 2</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Link 3</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer--item">
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Address and Contact
+          </h3>
+          <address class="address">
+            City,Shaqlawa Erbil <br />
+            Phone Number:07503640136 <br />
+            Email:rwaidluqa@gmail.com
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

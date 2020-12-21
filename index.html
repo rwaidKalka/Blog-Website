@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/web.png" />
+
+    <title>Assignment</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <img src="img/web.png" alt="Logo" class="header--logo" />
+
+        <h1 class="heading-primary">Rwaid Loqa Hanna</h1>
+      </div>
+    </header>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="container">
+        <ul class="nav--main--nav">
+          <li class="nav--item">
+            <a class="nav--link active" href="index.html">Home</a>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link" href="html/blog.html">Blog</a>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link" href="html/schedule.html">Schedule</a>
+          </li>
+          <li class="nav--item hover--show">
+            <a class="nav--link" href="#"
+              >Layout Design <span class="dropdown--icon"> &#9660;</span></a
+            >
+            <ul class="hover--list">
+              <li>
+                <a href="html/floatLayout.html">Float Layout With Side Nav</a>
+              </li>
+              <li>
+                <a href="html/flexboxLayout.html"
+                  >FlexBox Layout With Side Nav</a
+                >
+              </li>
+              <li><a href="html/gridLayout.html">Blog Grid View</a></li>
+            </ul>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link" href="html/signup.html">Signup</a>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link" href="html/signin.html">Signin</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main Content -->
+    <main class="main">
+      <div class="container">
+        <!-- Slider -->
+        <div class="slider-section">
+          <figure class="slider">
+            <img src="img/nat-4.jpg" alt="Slider-image" class="slider--img" />
+            <a href="#" class="slider--arrow--forward"><span>&rarr;</span></a>
+            <a href="#" class="slider--arrow--backward"><span>&larr;</span></a>
+            <figcaption class="slider--indicators">
+              <a href="#" class="slider--indicator"></a>
+              <a href="#" class="slider--indicator"></a>
+              <a href="#" class="slider--indicator"></a>
+            </figcaption>
+          </figure>
+        </div>
+        <!-- Hover Boxes -->
+        <div class="boxes">
+          <div class="row">
+            <div class="col-1-of-4">
+              <div class="box">
+                <a href="#">Blogs</a>
+              </div>
+            </div>
+            <div class="col-1-of-4">
+              <div class="box">
+                <a href="#">Seminar Schedule</a>
+              </div>
+            </div>
+            <div class="col-1-of-4">
+              <div class="box">
+                <a href="#">Signup</a>
+              </div>
+            </div>
+            <div class="col-1-of-4">
+              <div class="box">
+                <a href="#">Signin</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Articles -->
+        <section class="articles">
+          <div class="u-center-text">
+            <h2 class="heading-secondary">Recent Articles</h2>
+          </div>
+          <div class="row">
+            <article class="article">
+              <img
+                src="img/tech-3.jpg"
+                alt="Article 1"
+                class="article--image"
+              />
+
+              <h2 class="heading-tertiary">What is PHP?</h2>
+              <div class="article--date-time">
+                By
+                <a
+                  target="_blank"
+                  href="https://www.php.net/manual/en/intro-whatis.php"
+                  >Mark Smith</a
+                >
+                on Monday 11/12/2020 9:00 PM
+              </div>
+              <p class="paraghraph">
+                PHP (recursive acronym for PHP: Hypertext Preprocessor) is a
+                widely-used open source general-purpose scripting language that
+                is especially suited for web development and can be embedded
+                into HTML.What distinguishes PHP from something like client-side
+                JavaScript is that the code is executed on the server,
+                generating HTML which is then sent to the client. The client
+                would receive the results of running that script, but would not
+                know what the underlying code was. You can even configure your
+                web server to process all your HTML files with PHP, and then
+                there's really no way that users can tell what you have up your
+                sleeve.
+              </p>
+            </article>
+
+            <article class="article u-margin-top-big">
+              <img
+                src="img/tech-2.jpg"
+                alt="Article 1"
+                class="article--image"
+              />
+
+              <h2 class="heading-tertiary">SSD vs. HDD: Which Do You Need?</h2>
+              <div class="article--date-time">
+                By
+                <a target="_blank" href="https://www.avast.com/c-ssd-vs-hdd"
+                  >Avast site</a
+                >
+                on Thursday 7/11/2020 3:00 PM
+              </div>
+              <p class="paraghraph">
+                Are you running out of storage space? Is your old hard disk
+                slowing to a crawl? Then it’s time for a hardware upgrade. But
+                should you choose a cheaper, traditional hard disk drive? Or
+                should you take the plunge and buy a fast SSD? We show you the
+                differences between HDDs and SSDs in terms of speed, capacity,
+                cost, and lifespan – so you can make an educated decision.A hard
+                disk drive (HDD) is an old-school storage device that uses
+                mechanical platters and a moving read/write head to access data.
+                A solid-state drive (SSD) is a newer, faster type of device that
+                stores data on instantly-accessible memory chips.
+              </p>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer--item">
+          <h3 class="heading-tertiary u-margin-bottom-small">Site map</h3>
+          <ul class="footer--nav">
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Home</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">About</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Contact</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer--item">
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Terms and quick Links
+          </h3>
+          <ul class="footer--nav">
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Term Of Usage</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Link 1</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Link 2</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Link 3</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer--item">
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Address and Contact
+          </h3>
+          <address class="address">
+            City,Shaqlawa Erbil <br />
+            Phone Number:07503640136 <br />
+            Email:rwaidluqa@gmail.com
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

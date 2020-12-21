@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="../img/web.png" />
+
+    <title>Assignment</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <img src="../img/web.png" alt="Logo" class="header--logo" />
+
+        <h1 class="heading-primary">Rwaid Loqa Hanna</h1>
+      </div>
+    </header>
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="container">
+        <ul class="nav--main--nav">
+          <li class="nav--item">
+            <a class="nav--link" href="../index.html">Home</a>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link active" href="blog.html">Blog</a>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link" href="schedule.html">Schedule</a>
+          </li>
+          <li class="nav--item hover--show">
+            <a class="nav--link" href="#"
+              >Layout Design <span class="dropdown--icon"> &#9660;</span></a
+            >
+            <ul class="hover--list">
+              <li><a href="floatLayout.html">Float Layout With Side Nav</a></li>
+              <li>
+                <a href="flexboxLayout.html">FlexBox Layout With Side Nav</a>
+              </li>
+              <li><a href="gridLayout.html">Blog Grid View</a></li>
+            </ul>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link" href="signup.html">Signup</a>
+          </li>
+          <li class="nav--item">
+            <a class="nav--link" href="signin.html">Signin</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <!-- Main Content -->
+      <main class="main left-float">
+        <div class="container">
+          <section class="articles" id="full-image-float">
+            <h2 class="heading-secondary u-margin-bottom-small">
+              Floated sideBar + Blogs
+            </h2>
+            <article class="article">
+              <h3 class="heading-tertiary">What is a Network?</h3>
+              <div class="article--date-time">
+                By
+                <a
+                  target="_blank"
+                  href="https://fcit.usf.edu/network/chap1/chap1.htm"
+                  >Las Standway</a
+                >
+                on Tuesday 11/05/2020 2:00 PM
+              </div>
+              <img
+                src="../img/net-1.jpg"
+                alt="Article 1"
+                class="article--image"
+              />
+              <p class="paraghraph">
+                A network consists of two or more computers that are linked in
+                order to share resources (such as printers and CDs), exchange
+                files, or allow electronic communications. The computers on a
+                network may be linked through cables, telephone lines, radio
+                waves, satellites, or infrared light beams.Two very common types
+                of networks include: <br />
+                &bull; Local Area Network (LAN) <br />&bull; Wide Area Network
+                (WAN)
+                <br />
+                You may also see references to a Metropolitan Area Networks
+                (MAN), a Wireless LAN (WLAN), or a Wireless WAN (WWAN).
+              </p>
+
+              <p class="paraghraph">
+                A computer network is a group of computers that use a set of
+                common communication protocols over digital interconnections for
+                the purpose of sharing resources located on or provided by the
+                network nodes.
+              </p>
+            </article>
+
+            <article class="article">
+              <h3 class="heading-tertiary">Local Area Network</h3>
+              <div class="article--date-time">
+                By
+                <a
+                  target="_blank"
+                  href="https://fcit.usf.edu/network/chap1/chap1.htm"
+                  >Johny Tekson</a
+                >
+                on Monday 1/06/2020 9:00 PM
+              </div>
+              <img
+                src="../img/net-2.jpg"
+                alt="Article 1"
+                class="article--image"
+              />
+              <p class="paraghraph">
+                A Local Area Network (LAN) is a network that is confined to a
+                relatively small area. It is generally limited to a geographic
+                area such as a writing lab, school, or building. Computers
+                connected to a network are broadly categorized as servers or
+                workstations. Servers are generally not used by humans directly,
+                but rather run continuously to provide "services" to the other
+                computers (and their human users) on the network. Services
+                provided can include printing and faxing, software hosting, file
+                storage and sharing, messaging, data storage and retrieval,
+                complete access control (security) for the network's resources,
+                and many others.
+              </p>
+
+              <p class="paraghraph">
+                Workstations are called such because they typically do have a
+                human user which interacts with the network through them.
+                Workstations were traditionally considered a desktop, consisting
+                of a computer, keyboard, display, and mouse, or a laptop, with
+                with integrated keyboard, display, and touchpad. With the advent
+                of the tablet computer, and the touch screen devices such as
+                iPad and iPhone, our definition of workstation is quickly
+                evolving to include those devices, because of their ability to
+                interact with the network and utilize network services.
+              </p>
+              <p class="paraghraph">
+                On a single LAN, computers and servers may be connected by
+                cables or wirelessly. Wireless access to a wired network is made
+                possible by wireless access points (WAPs). These WAP devices
+                provide a bridge between computers and networks. A typical WAP
+                might have the theoretical capacity to connect hundreds or even
+                thousands of wireless users to a network, although practical
+                capacity might be far less.
+              </p>
+            </article>
+
+            <article class="article">
+              <h3 class="heading-tertiary">Wide Area Network</h3>
+              <div class="article--date-time">
+                By
+                <a
+                  target="_blank"
+                  href="https://fcit.usf.edu/network/chap1/chap1.htm"
+                  >Marcus Shmils</a
+                >
+                on Monday 11/11/2020 12:00 PM
+              </div>
+              <img
+                src="../img/net-3.jpg"
+                alt="Article 1"
+                class="article--image"
+              />
+              <p class="paraghraph">
+                Wide Area Networks (WANs) connect networks in larger geographic
+                areas, such as Florida, the United States, or the world.
+                Dedicated transoceanic cabling or satellite uplinks may be used
+                to connect this type of global network. Using a WAN, schools in
+                Florida can communicate with places like Tokyo in a matter of
+                seconds, without paying enormous phone bills.
+              </p>
+
+              <p class="paraghraph">
+                Two users a half-world apart with workstations equipped with
+                microphones and a webcams might teleconference in real time. A
+                WAN is complicated. It uses multiplexers, bridges, and routers
+                to connect local and metropolitan networks to global
+                communications networks like the Internet. To users, however, a
+                WAN will not appear to be much different than a LAN.
+              </p>
+              <p class="paraghraph">
+                tempora ducimus labore, non laborum ipsum est quos nostrum eos
+                dicta ab odit nulla aperiam dolor quo tempore, repudiandae illum
+                sequi distinctio odio consequatur totam. Doloribus, esse quas .
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+                quibusdam adipisci minima laudantium nihil sunt neque? Provident
+                necessitatibus placeat accusantium!
+              </p>
+              <p class="paraghraph">
+                Many technologies are available for wide area network links.
+                Examples include circuit-switched telephone lines, radio wave
+                transmission, and optical fiber. New developments in
+                technologies have successively increased transmission rates. In
+                ca. 1960, a 110 bit/s (bits per second) line was normal on the
+                edge of the WAN, while core links of 56 kbit/s to 64 kbit/s were
+                considered fast.[citation needed] As of 2014, households are
+                connected to the Internet with dial-up, asymmetric digital
+                subscriber line (ADSL), cable, WiMAX, 4G[6] or fiber. The speeds
+                that people can currently use range from 28.8 kbit/s through a
+                28K modem over a telephone connection to speeds as high as 100
+                Gbit/s using 100 Gigabit Ethernet.
+              </p>
+            </article>
+          </section>
+        </div>
+      </main>
+      <!-- SideBar -->
+      <aside class="aside right-float">
+        <h2>Layout Design</h2>
+        <a href="floatLayout.html" class="btn--link">Float Layout With Html</a>
+        <a href="flexboxLayout.html" class="btn--link"
+          >FlexBox Layout With Html</a
+        >
+        <a href="gridLayout.html" class="btn--link">Grid Layout With Html</a>
+      </aside>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer--item">
+          <h3 class="heading-tertiary u-margin-bottom-small">Site map</h3>
+          <ul class="footer--nav">
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Home</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">About</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Contact</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer--item">
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Terms and quick Links
+          </h3>
+          <ul class="footer--nav">
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Term Of Usage</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Link 1</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Link 2</a>
+            </li>
+            <li class="footer--nav--item">
+              <a class="footer--nav--link" href="#">Link 3</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer--item">
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Address and Contact
+          </h3>
+          <address class="address">
+            City,Shaqlawa Erbil <br />
+            Phone Number:07503640136 <br />
+            Email:rwaidluqa@gmail.com
+          </address>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
